@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Step 3</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/0.71/jquery.csv-0.71.min.js"></script>
+    </head>
+    <link rel="stylesheet" type="text/css" href="step3.css">
+    <script src="https://unpkg.com/compromise@latest/builds/compromise.min.js"></script>
+  <body onclick="clickBody()" onMouseUp="selectionEvent()" ondblclick="customDoubleClick()">
+    <div id="mainPart">
+            <h2>Procedure:</h2>
+            <p>Below are the sentences to be analyzed. Each line shows a sentence. Possible modal terms are highlighted in <span class ="can_highlight">gray</span>.</p> 
+            <div id="scroll">
+                Legend: <span class ="can_highlight legend">This is a possible modal term</span> &nbsp;&nbsp;&nbsp; <span class ="highlight_booster legend">This is a Booster</span> &nbsp;&nbsp;&nbsp; <span class ="highlight_hedge legend">This is a Hedge</span><br/>
+                It is possible to interact on each word by: <br/>
+                <ul>
+                    <li>Using a left click on a <span class ="can_highlight">possible modal term</span> turns it into a <span class ="highlight_hedge">hedge</span>. An additional left click turns it into a <span class ="highlight_booster">booster</span>. A final click turns it back to a <span class ="can_highlight">possible modal term</span>.
+                    <!--<li>Using a right click on a <span class ="highlight_hedge">hedge</span> or <span class ="highlight_booster">booster</span> to change its nature from <span class ="highlight_hedges">hedge</span> to <span class ="highlight_boosters">booster</span> and vice-versa. Note that words in <span class ="can_highlight">grey</span> cannot be right-clicked.</li>-->
+                    <li>Using a text-selection to add terms/words to the list of boosters or hedges. Highlighted text is shown as a <span class ="can_highlight">possible modal term</span>. You need to use one left click to change it to a <span class ="highlight_hedge">hedge</span> and another to a <span class ="highlight_booster">booster</span>. Please note however that:<br/>
+                        <ul>
+                            <li>You cannot select an term that is already in the list of predefined hedges and boosters.</li>
+                            <!--<li>You will need to manually add all instances of this term throughout the corpus if you think that they might all be relevant.</li>-->
+                            <li>To remove an term that you have added (by mistake of after more careful consideration), you can simply select the text again.</li>
+                            <li>A double click will have the same effect as selecting text and will therefore remove the term.</li>
+                        </ul>
+                    </li>
+                </ul>
+            
+        </div>
+    </div>
+      
+    <div id="Tables"></div>
+
+    <script src="step3.js"></script>
+  </body>
+</html>

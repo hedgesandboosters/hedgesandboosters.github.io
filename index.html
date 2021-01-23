@@ -1,37 +1,115 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Step 3</title>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/0.71/jquery.csv-0.71.min.js"></script>
-    </head>
-    <link rel="stylesheet" type="text/css" href="step3.css">
-    <script src="https://unpkg.com/compromise@latest/builds/compromise.min.js"></script>
-  <body onclick="clickBody()" onMouseUp="selectionEvent()" ondblclick="customDoubleClick()">
-    <div id="mainPart">
-            <h2>Procedure:</h2>
-            <p>Below are the sentences to be analyzed. Each line shows a sentence. Possible modal terms are highlighted in <span class ="can_highlight">gray</span>.</p> 
-            <div id="scroll">
-                Legend: <span class ="can_highlight legend">This is a possible modal term</span> &nbsp;&nbsp;&nbsp; <span class ="highlight_booster legend">This is a Booster</span> &nbsp;&nbsp;&nbsp; <span class ="highlight_hedge legend">This is a Hedge</span><br/>
-                It is possible to interact on each word by: <br/>
-                <ul>
-                    <li>Using a left click on a <span class ="can_highlight">possible modal term</span> turns it into a <span class ="highlight_hedge">hedge</span>. An additional left click turns it into a <span class ="highlight_booster">booster</span>. A final click turns it back to a <span class ="can_highlight">possible modal term</span>.
-                    <!--<li>Using a right click on a <span class ="highlight_hedge">hedge</span> or <span class ="highlight_booster">booster</span> to change its nature from <span class ="highlight_hedges">hedge</span> to <span class ="highlight_boosters">booster</span> and vice-versa. Note that words in <span class ="can_highlight">grey</span> cannot be right-clicked.</li>-->
-                    <li>Using a text-selection to add terms/words to the list of boosters or hedges. Highlighted text is shown as a <span class ="can_highlight">possible modal term</span>. You need to use one left click to change it to a <span class ="highlight_hedge">hedge</span> and another to a <span class ="highlight_booster">booster</span>. Please note however that:<br/>
-                        <ul>
-                            <li>You cannot select an term that is already in the list of predefined hedges and boosters.</li>
-                            <!--<li>You will need to manually add all instances of this term throughout the corpus if you think that they might all be relevant.</li>-->
-                            <li>To remove an term that you have added (by mistake of after more careful consideration), you can simply select the text again.</li>
-                            <li>A double click will have the same effect as selecting text and will therefore remove the term.</li>
-                        </ul>
-                    </li>
-                </ul>
-            
-        </div>
-    </div>
-      
-    <div id="Tables"></div>
-    <button type="button" id="saveBtn" onclick="saveCSV()">Save and Export to CSV</button>
-    <script src="step3.js"></script>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Definitely Maybe: Hedges And Boosters in the HCI Literature</title>
+
+    <!-- Bootstrap core CSS -->
+    <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+
+    <!-- Custom styles for this template -->
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+    <!-- <link href="css/2-col-portfolio.css" rel="stylesheet"> -->
+
+  </head>
+
+  <body>
+
+
+
+    <!-- Page Content -->
+    <div class="container">
+
+      <!-- Page Heading -->
+      <center><h1 class="my-4">Definitely Maybe: Hedges And Boosters in the HCI Literature</h1><h2>Companion website</h2></center>
+<br/>
+<!-- <center><img src="images/teaser.jpg" width="85%"/></center> -->
+<br/>
+	    <center><p> <small>Anonymous authors</p></small> </center>	
+
+<h3>Abstract</h3>
+<p style="margin-left:7%; margin-right:7%;"> <em>Introduction:</em> Hedges and boosters are terms respectively used to decrease and increase the strength of statements.<br>
+<em>Objectives:</em> We present an analysis of the use of hedges and boosters in the CHI proceedings between 2010 and 2018 to better understand how CHI authors report empirical findings.<br>
+<em>Methods:</em> We only considered papers reporting a user study and focused our analysis on the sentences in the abstract that describe empirical results. We used a program to detect boosters and hedges and manually adjusted their classifications.<br>
+<em>Results:</em> We found that CHI studies reporting inferential statistics are more likely to boost than they hedge.<br>
+<em>Conclusion:</em> Understanding the use of hedging and boosting will assist HCI authors in properly reporting their research. Our results establish a baseline of the current use of these terms at CHI.<br>
+<em>Reproducibility:</em> All data and scripts are available on <a href="https://osf.io/kefmr/?view_only=907b8e550ee84fcc927a36cc1d2adbcf">osf.io</a></p>
+
+<br/><hr/><br/>
+
+	<p>This is a companion website for the submission:</p>
+
+<p>Anonymous Author(s). 2021. Definitely Maybe: Hedges And Boosters in the HCI Literature. Submitted for review to INTERACT’21.</p>
+ 
+<br />
+
+<p>We summarize here relevant material for the article in review. This page does not inlcude any information going beyond what is already mentioned in the article. Its purpose is simply to provide a convenient starting page to access the additional material. There is no tracking code embedded in this page nor any of the pages which are linked to here.</p>
+
+<hr>
+    <h2>Code Book</h2>
+      <div class="row">
+    <p class="c1 c3"><span class="c7"></span></p>
+    <p class="c1"><span class="c7">In this codebook we use the following definitions:</span></p>
+    <p class="c1 c3"><span class="c7"></span></p>
+    <p class="c1"><span>1/ </span><span>A </span><span class="c4">study report</span><span class="c7">&nbsp;is a paper that reports research involving human participants. The report must be on an original study: surveys, discussions, and re-analyses of previous studies do not qualify.</span></p>
+    <ul class="c6 lst-kix_hc0vmf26eh4o-0 start">
+        <li class="c1 c2 li-bullet-0"><span>If the paper is a study report, write &ldquo;</span><span class="c4 c15">Y</span><span class="c7">&rdquo; in the &quot;Study&quot; column</span></li>
+        <li class="c1 c2 li-bullet-0"><span>Otherwise, write &ldquo;</span><span class="c4 c15">N</span><span class="c7">&rdquo;, leave the &quot;Type&quot; column blank and proceed to the next paper.</span></li>
+    </ul>
+    <p class="c1 c3"><span class="c7"></span></p>
+    <p class="c1"><span>2/ An </span><span class="c4">inferential study report</span><span>&nbsp;is a study paper that reports study results using </span><span>measures of statistical uncertainty such as test statistics, p-values, interval estimates (confidence intervals, credible intervals, standard errors, but </span><span class="c0">not</span><span>&nbsp;standard deviations), Bayesian posteriors, or Bayes factors. All of these can be reported either numerically or graphically. &nbsp;It is not necessary that the paper </span><span class="c0">only</span><span class="c7">&nbsp;report inferential statistics.</span></p>
+    <ul class="c6 lst-kix_bpmyrl3dj3go-0 start">
+        <li class="c1 c2 li-bullet-0"><span>If a paper is an inferential report, write &ldquo;</span><span class="c4 c15">inferential</span><span class="c7">&rdquo; in the &ldquo;Type&quot; column.</span></li>
+        <li class="c1 c2 li-bullet-0"><span>Otherwise, write &ldquo;</span><span class="c4 c15">other</span><span>&rdquo;</span><span class="c21">.</span></li>
+    </ul>
+    <p class="c1 c3"><span class="c7"></span></p>
+    <p class="c1"><span>3/ An </span><span class="c4">abstract</span><span class="c7">&nbsp;is the first section of a paper and is titled &ldquo;Abstract&rdquo;.</span></p>
+    <p class="c1 c3"><span class="c7 c22"></span></p>
+    <p class="c1"><span>4/ A </span><span class="c4">result</span><span class="c4">&nbsp;</span><span class="c4">description</span><span class="c4">&nbsp;</span><span>is a sentence that describes or summarizes the </span><span>results</span><span>&nbsp;of a study, explains them, or discusses their</span><span>&nbsp;implications</span><span>. As a general rule, it is a sentence that may have been different had the results been different. Both sentences in the following excerpt are result-relevant: </span><span class="c0">&ldquo;We found that touch interaction is slower but more precise than tangible interaction. This suggests that designers and developers should consider this tradeoff when designing applications&rdquo;</span><span>. Counterexamples include generic statements that carry no information about the results or their implications (e.g., </span><span class="c0">&quot;We then discuss our results&quot;</span><span>&nbsp;or </span><span class="c0">&quot;We conclude with implications for design&quot;</span><span>)</span><span class="c0">&nbsp;</span><span>and future work statements that do not clearly derive from the results (e.g., </span><span class="c0">&quot;In future work, we will investigate alternative designs&quot;</span><span>)</span><span class="c0">.</span><span>&nbsp;Conversely, future work statements that are clearly informed by the results qualify, e.g., </span><span class="c0">&quot;Given this result, more complex designs should be investigated in the future&quot;. </span><span>However, we exclude the description of further research steps that were carried out based on the results of a study and reported in the same paper, e.g., </span><span class="c0">&quot;This finding led us to design a second experiment where we tested the effect of task. We recruited 20 other participants [...]&quot;</span><span>.</span></p>
+    <p class="c1 c3"><span class="c7"></span></p>
+    <p class="c1"><span>5/ A </span><span class="c4">modal term</span><span>&nbsp;is a term that is used either to tone down a statement, or to increase its strength. Examples are the word </span><span class="c0">&quot;may&quot;</span><span>&nbsp;in </span><span class="c0">&ldquo;The drug </span><span class="c4 c0">may</span><span class="c0">&nbsp;have an effect on sleep&rdquo; </span><span>or the word </span><span class="c0">&quot;definitely&quot;</span><span>&nbsp;in </span><span class="c0">&quot;The drug </span><span class="c4 c0">definitely</span><span class="c0">&nbsp;has an effect on sleep&quot;.</span><span>&nbsp;However, the word </span><span class="c0">&quot;definitely&quot;</span><span>&nbsp;is not considered a modal term in the sentence </span><span class="c0">&quot;One participant said she would </span><span class="c4 c0">definitely</span><span class="c0">&nbsp;use the tool in the future&quot;</span><span>, because changing it would alter the meaning of the statement. As a general rule,</span><span>&nbsp;</span><span>if a term can be removed or replaced by another term in a way that alters the </span><span class="c0">subjective strength</span><span>&nbsp;of the statement made by the authors without altering its </span><span class="c0">objective meaning</span><span>, then it is a modal term. As another example, in the sentence </span><span class="c0">&quot;We found a </span><span class="c4 c0">strong</span><span class="c0">&nbsp;correlation&quot;</span><span>, the term </span><span class="c0">&quot;strong&quot;</span><span>&nbsp;partly reflects a subjective judgment by the authors, who could have easily used a term like </span><span class="c0">&quot;substantial&quot;</span><span class="c7">&nbsp;instead. Therefore, it is a modal term. We have already identified a number of potential modal terms in the sentences you will code, by searching within a dictionary of common modal terms. All matches will be highlighted in gray. However, there will be a good number of false positives, so we will ask you to indicate whether each of those terms highlighted in gray is indeed a modal term, and if so, to indicate its type. Modal terms come in two types: hedges and boosters, explained below. We will ask you to only mark terms that are evident hedges or evident boosters --- if you cannot decide between hedge and booster, leave the term in gray.</span></p>
+    <p class="c1 c3"><span class="c7"></span></p>
+    <p class="c1"><span>6/ A </span><span class="c4">hedge</span><span>&nbsp;is a term that is used to tone down a statement, for example by making it appear more fuzzy or more uncertain. Examples of hedges include </span><span class="c0">&quot;possibly&quot;</span><span>, </span><span class="c0">&quot;approximately&quot;</span><span>, </span><span class="c0">&quot;sometimes&quot;</span><span>&nbsp;or </span><span class="c0">&quot;speculate&quot;</span><span>. For example, the sentence </span><span class="c0">&ldquo;The drug </span><span class="c4 c0">may </span><span class="c0">have</span><span class="c0">&nbsp;an effect on sleep&rdquo;</span><span>&nbsp;is weaker than the simpler sentence </span><span class="c0">&ldquo;The drug </span><span class="c0">has</span><span class="c0">&nbsp;an effect on sleep&rdquo;</span><span>, so </span><span class="c0">&quot;may&quot;</span><span>&nbsp;is a hedge in the first sentence. Other examples are </span><span class="c0">&quot;The technique was </span><span class="c4 c0">roughly</span><span class="c0">&nbsp;twice as fast&quot; </span><span>(which increases fuzziness), or </span><span class="c0">&quot;The effect is </span><span class="c4 c0">somehow</span><span class="c0">&nbsp;large&quot;</span><span>&nbsp;(which decreases strength). Hedges are not necessarily modifiers. For example, in the sentence </span><span class="c0">&quot;Our results </span><span class="c4 c0">suggest</span><span class="c0">&nbsp;that the drug has an effect&quot;</span><span>, </span><span class="c0">&quot;suggest&quot;</span><span>&nbsp;is a hedge because a stronger verb (like </span><span class="c0">&quot;show&quot;</span><span>) could have been easily used instead. As a third example, the word </span><span class="c0">&quot;speculate&quot;</span><span>&nbsp;acts as a hedge in the sentence </span><span class="c0">&quot;We </span><span class="c4 c0">speculate</span><span class="c0">&nbsp;that our findings are due to a difference in performance&quot;</span><span>. An example of a clear false positive is the term &quot;</span><span class="c0">may&quot;</span><span>&nbsp;in the following sentence: </span><span class="c0">&quot;We conducted our study in </span><span class="c4 c0">May</span><span class="c0">&quot;</span><span>. </span><span>Similarly, the word </span><span class="c0">&quot;speculate&quot;</span><span>&nbsp;is not a hedge in the sentence: </span><span class="c0">&ldquo;Our subjects often had to </span><span class="c4 c0">speculate</span><span class="c0">&nbsp;about the actual goal of the task&quot;</span><span>, because its role is not to reduce the force of the author&#39;s statement</span><span class="c7">.</span></p>
+    <p class="c1 c3"><span class="c7"></span></p>
+    <p class="c1"><span>7/ A </span><span class="c4">booster</span><span>&nbsp;is a term that is used to increase the strength of a statement, for example by making it appear sharper or more certain. It has the opposite effect of a hedge. Examples of boosters include </span><span class="c0">&quot;definitely&quot;</span><span>, </span><span class="c0">&quot;strongly&quot;</span><span>,</span><span>&nbsp;</span><span class="c0">&quot;exactly&quot;</span><span>&nbsp;or </span><span class="c0">&quot;prove&quot;</span><span>. For example, the statement </span><span class="c0">&ldquo;The drug has a </span><span class="c4 c0">clear</span><span class="c0">&nbsp;effect on sleep&rdquo;</span><span>&nbsp;appears stronger than </span><span class="c0">&ldquo;The drug has an effect on sleep&rdquo;</span><span>, so </span><span class="c0">&quot;</span><span class="c0">clear</span><span class="c0">&quot;</span><span>&nbsp;acts as a booster in the first sentence. Other examples are </span><span class="c0">&quot;The technique was </span><span class="c4 c0">exactly</span><span class="c0">&nbsp;twice as fast&quot; </span><span>(which increases sharpness), or </span><span class="c0">&quot;The effect is </span><span class="c0 c4">extremely</span><span class="c0">&nbsp;large&quot;</span><span>&nbsp;(which increases strength). Like hedges, boosters are not necessarily modifiers. &nbsp;For example, in the sentence </span><span class="c0">&quot;Our results </span><span class="c4 c0">show</span><span class="c0">&nbsp;that the drug has an effect&quot;</span><span>, </span><span class="c0">&quot;show&quot;</span><span>&nbsp;is a booster because a weaker verb (like </span><span class="c0">&quot;suggest&quot;</span><span>) could have been easily used instead. &nbsp;As a third example, the word </span><span class="c0">&quot;demonstrated&quot;</span><span>&nbsp;is a booster in the sentence </span><span class="c0">&quot;We </span><span class="c4 c0">demonstrated</span><span class="c0">&nbsp;that our findings are due to a difference in performance&quot;</span><span>.</span><span>&nbsp;However, the word </span><span class="c0">&quot;demonstrated&quot;</span><span>&nbsp;is not a booster in the sentence </span><span class="c0">&ldquo;Our subjects </span><span class="c4 c0">demonstrated</span><span class="c0">&nbsp;their expertise&quot;, </span><span>because its role is not to increase the force of the author&#39;s statement</span><span class="c7">.</span></p>
+    <p class="c1 c3"><span class="c7"></span></p>
+    <p class="c1"><span>8/ </span><span>You will see cases where it is difficult to decide whether a term is a modal term, and whether a modal term is a hedge or a booster. For example, in the sentence </span><span class="c0">&quot;We </span><span class="c4 c0">found</span><span class="c0">&nbsp;that 72% of the participants were faster with A than B&quot;</span><span>, you may find that the term </span><span class="c0">&quot;found&quot;</span><span>&nbsp;is not a clear hedge or a clear booster. In that case, leave the term in gray. Again, focus on terms that strike you as clear hedges or boosters. If you cannot decide whether a term is a hedge or a booster or it takes you too long to decide, leave it in gray. Keep in mind that there may be a good number of false positives among the terms highlighted in gray.<br></span></p>
+
+
+
+
+
+      <h4>Pre-registration</h4>
+     <p>The analysis for this study was planned in advance and pre-registered on OSF. The  <a href="https://osf.io/kefmr/?view_only=907b8e550ee84fcc927a36cc1d2adbcf">pre-registration document can be consulted here (external link)</a>.</p>
+
+     <h4>Coding Interface</h4>
+      <p>We used a custom coding interface for which we share the source code together with all other supplementary material on <a href="https://osf.io/kefmr/?view_only=907b8e550ee84fcc927a36cc1d2adbcf">OSF</a>. You can try out the coding yourself by clicking on the screenshot below.
+      </p>
+      <div style="border: 2px solid blue; margin:10px auto; padding:15px"><a  href="step3.html"><img src="preview.jpg" style="width: 100%; max-width: 900px; margin: auto;"></a></div>
+
+
+    <!-- Footer -->
+    <footer class="py-5 pr-5 pl-5 bg-dark">
+      <div class="container">
+	      <p class="m-0 text-center text-white">Last updated January 23, 2021.</p>
+	     <p class="m-0 text-center text-white"><img src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" />
+		The content of this website is licensed under a <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+<!--     <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+ -->
   </body>
+
 </html>
