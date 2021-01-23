@@ -1,0 +1,61 @@
+table, th, td {
+    margin: 2px;
+    padding: 2px;
+}
+
+td{
+    padding:10px;
+}
+
+
+.legend{
+    font-size: 25px;
+}
+
+#mainPart{
+    background: rgba(245,245,245,1)
+}
+
+.scrolling {
+    position: fixed;
+    top: 0;
+    background: rgba(245,245,245,1)
+}
+
+
+table{
+    width:100%;
+    text-align: left;
+}
+
+.header{
+    text-align: center;
+    font-weight: bold;
+}
+
+.sentence{
+    width:70%;
+}
+
+#saveBtn{
+    width: 100%;
+    margin: 5%;
+    border: 2px solid grey;
+}
+
+.can_highlight{
+    background-color:rgba(170,170,170,0.4);
+}
+
+.highlight_booster{
+    background-color:rgba(255,182,193,0.7);
+}
+
+.highlight_hedge{
+    background-color: rgba(173,211,230,0.7);
+}
+
+.scrolling { /* Note #2 */
+    position: fixed;
+    top: 0;
+}

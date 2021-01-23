@@ -1,0 +1,577 @@
+Word,Type,Category
+can,Hedge,Modal verb
+could,Hedge,Modal verb
+may,Hedge,Modal verb
+might,Hedge,Modal verb
+should,Hedge,Modal verb
+will,Hedge,Modal verb
+would,Hedge,Modal verb
+can't,Booster,Modal verb
+cannot,Booster,Modal verb
+couldn't,Booster,Modal verb
+could not,Booster,Modal verb
+have to,Booster,Modal verb
+must,Booster,Modal verb
+will,Booster,Modal verb
+won't,Booster,Modal verb
+will not,Booster,Modal verb
+would not,Booster,Modal verb
+wouldn't,Booster,Modal verb
+appear,Hedge,Lexical verb
+appears,Hedge,Lexical verb
+appearing,Hedge,Lexical verb
+appeared,Hedge,Lexical verb
+has appeared,Hedge,Lexical verb
+have appeared,Hedge,Lexical verb
+had appeared,Hedge,Lexical verb
+argue,Hedge,Lexical verb
+argues,Hedge,Lexical verb
+arguing,Hedge,Lexical verb
+argued,Hedge,Lexical verb
+has argued,Hedge,Lexical verb
+have argued,Hedge,Lexical verb
+had argued,Hedge,Lexical verb
+assert,Hedge,Lexical verb
+asserts,Hedge,Lexical verb
+asserting,Hedge,Lexical verb
+asserted,Hedge,Lexical verb
+has asserted,Hedge,Lexical verb
+have asserted,Hedge,Lexical verb
+had asserted,Hedge,Lexical verb
+assume,Hedge,Lexical verb
+assumes,Hedge,Lexical verb
+assuming,Hedge,Lexical verb
+assumed,Hedge,Lexical verb
+has assumed,Hedge,Lexical verb
+have assumed,Hedge,Lexical verb
+had assumed,Hedge,Lexical verb
+attempt,Hedge,Lexical verb
+attempts,Hedge,Lexical verb
+attempting,Hedge,Lexical verb
+attempted,Hedge,Lexical verb
+has attempted,Hedge,Lexical verb
+have attempted,Hedge,Lexical verb
+had attempted,Hedge,Lexical verb
+believe,Hedge,Lexical verb
+believes,Hedge,Lexical verb
+believing,Hedge,Lexical verb
+believed,Hedge,Lexical verb
+has believed,Hedge,Lexical verb
+have believed,Hedge,Lexical verb
+had believed,Hedge,Lexical verb
+claim,Hedge,Lexical verb
+claims,Hedge,Lexical verb
+claiming,Hedge,Lexical verb
+claimed,Hedge,Lexical verb
+has claimed,Hedge,Lexical verb
+have claimed,Hedge,Lexical verb
+had claimed,Hedge,Lexical verb
+conclude,Hedge,Lexical verb
+concludes,Hedge,Lexical verb
+concluding,Hedge,Lexical verb
+concluded,Hedge,Lexical verb
+has concluded,Hedge,Lexical verb
+have concluded,Hedge,Lexical verb
+had concluded,Hedge,Lexical verb
+consider,Hedge,Lexical verb
+considers,Hedge,Lexical verb
+considering,Hedge,Lexical verb
+considered,Hedge,Lexical verb
+has considered,Hedge,Lexical verb
+have considered,Hedge,Lexical verb
+had considered,Hedge,Lexical verb
+doubt,Hedge,Lexical verb
+doubts,Hedge,Lexical verb
+doubting,Hedge,Lexical verb
+doubted,Hedge,Lexical verb
+has doubted,Hedge,Lexical verb
+have doubted,Hedge,Lexical verb
+had doubted,Hedge,Lexical verb
+estimate,Hedge,Lexical verb
+estimates,Hedge,Lexical verb
+estimating,Hedge,Lexical verb
+estimated,Hedge,Lexical verb
+has estimated,Hedge,Lexical verb
+have estimated,Hedge,Lexical verb
+had estimated,Hedge,Lexical verb
+evaluate,Hedge,Lexical verb
+evaluates,Hedge,Lexical verb
+evaluating,Hedge,Lexical verb
+evaluated,Hedge,Lexical verb
+has evaluated,Hedge,Lexical verb
+have evaluated,Hedge,Lexical verb
+had evaluated,Hedge,Lexical verb
+expect,Hedge,Lexical verb
+expects,Hedge,Lexical verb
+expecting,Hedge,Lexical verb
+expected,Hedge,Lexical verb
+has expected,Hedge,Lexical verb
+have expected,Hedge,Lexical verb
+had expected,Hedge,Lexical verb
+feel,Hedge,Lexical verb
+feels,Hedge,Lexical verb
+feeling,Hedge,Lexical verb
+felt,Hedge,Lexical verb
+has felt,Hedge,Lexical verb
+have felt,Hedge,Lexical verb
+had felt,Hedge,Lexical verb
+hypothesize,Hedge,Lexical verb
+hypothesizes,Hedge,Lexical verb
+hypothesizing,Hedge,Lexical verb
+hypothesized,Hedge,Lexical verb
+has hypothesized,Hedge,Lexical verb
+have hypothesized,Hedge,Lexical verb
+had hypothesized,Hedge,Lexical verb
+imply,Hedge,Lexical verb
+implies,Hedge,Lexical verb
+implying,Hedge,Lexical verb
+implied,Hedge,Lexical verb
+has implied,Hedge,Lexical verb
+have implied,Hedge,Lexical verb
+had implied,Hedge,Lexical verb
+indicate,Hedge,Lexical verb
+indicates,Hedge,Lexical verb
+indicating,Hedge,Lexical verb
+indicated,Hedge,Lexical verb
+has indicated,Hedge,Lexical verb
+have indicated,Hedge,Lexical verb
+had indicated,Hedge,Lexical verb
+interpret,Hedge,Lexical verb
+interprets,Hedge,Lexical verb
+interpreting,Hedge,Lexical verb
+interpreted,Hedge,Lexical verb
+has interpreted,Hedge,Lexical verb
+have interpreted,Hedge,Lexical verb
+had interpreted,Hedge,Lexical verb
+maintain,Hedge,Lexical verb
+maintains,Hedge,Lexical verb
+maintaining,Hedge,Lexical verb
+maintained,Hedge,Lexical verb
+has maintained,Hedge,Lexical verb
+have maintained,Hedge,Lexical verb
+had maintained,Hedge,Lexical verb
+note,Hedge,Lexical verb
+notes,Hedge,Lexical verb
+noting,Hedge,Lexical verb
+noted,Hedge,Lexical verb
+has noted,Hedge,Lexical verb
+have noted,Hedge,Lexical verb
+had noted,Hedge,Lexical verb
+offer,Hedge,Lexical verb
+offers,Hedge,Lexical verb
+offering,Hedge,Lexical verb
+offered,Hedge,Lexical verb
+has offered,Hedge,Lexical verb
+have offered,Hedge,Lexical verb
+had offered,Hedge,Lexical verb
+observe,Hedge,Lexical verb
+observes,Hedge,Lexical verb
+observing,Hedge,Lexical verb
+observed,Hedge,Lexical verb
+has observed,Hedge,Lexical verb
+have observed,Hedge,Lexical verb
+had observed,Hedge,Lexical verb
+perceive,Hedge,Lexical verb
+perceives,Hedge,Lexical verb
+perceiving,Hedge,Lexical verb
+perceived,Hedge,Lexical verb
+has perceived,Hedge,Lexical verb
+have perceived,Hedge,Lexical verb
+had perceived,Hedge,Lexical verb
+presume,Hedge,Lexical verb
+presumes,Hedge,Lexical verb
+presuming,Hedge,Lexical verb
+presumed,Hedge,Lexical verb
+has presumed,Hedge,Lexical verb
+have presumed,Hedge,Lexical verb
+had presumed,Hedge,Lexical verb
+propose,Hedge,Lexical verb
+proposes,Hedge,Lexical verb
+proposing,Hedge,Lexical verb
+proposed,Hedge,Lexical verb
+has proposed,Hedge,Lexical verb
+have proposed,Hedge,Lexical verb
+had proposed,Hedge,Lexical verb
+prove,Booster,Lexical verb
+proves,Booster,Lexical verb
+proving,Booster,Lexical verb
+proved,Booster,Lexical verb
+proven,Booster,Lexical verb
+has proven,Booster,Lexical verb
+have proven,Booster,Lexical verb
+had proven,Booster,Lexical verb
+report,Hedge,Lexical verb
+reports,Hedge,Lexical verb
+reporting,Hedge,Lexical verb
+reported,Hedge,Lexical verb
+has reported,Hedge,Lexical verb
+have reported,Hedge,Lexical verb
+had reported,Hedge,Lexical verb
+seem,Hedge,Lexical verb
+seems,Hedge,Lexical verb
+seeming,Hedge,Lexical verb
+seemed,Hedge,Lexical verb
+has seemed,Hedge,Lexical verb
+have seemed,Hedge,Lexical verb
+had seemed,Hedge,Lexical verb
+speculate,Hedge,Lexical verb
+speculates,Hedge,Lexical verb
+speculating,Hedge,Lexical verb
+speculated,Hedge,Lexical verb
+has speculated,Hedge,Lexical verb
+have speculated,Hedge,Lexical verb
+had speculated,Hedge,Lexical verb
+suggest,Hedge,Lexical verb
+suggests,Hedge,Lexical verb
+suggesting,Hedge,Lexical verb
+suggested,Hedge,Lexical verb
+has suggested,Hedge,Lexical verb
+have suggested,Hedge,Lexical verb
+had suggested,Hedge,Lexical verb
+suppose,Hedge,Lexical verb
+supposes,Hedge,Lexical verb
+supposing,Hedge,Lexical verb
+supposed,Hedge,Lexical verb
+has supposed,Hedge,Lexical verb
+have supposed,Hedge,Lexical verb
+had supposed,Hedge,Lexical verb
+suspect,Hedge,Lexical verb
+suspects,Hedge,Lexical verb
+suspecting,Hedge,Lexical verb
+suspected,Hedge,Lexical verb
+has suspected,Hedge,Lexical verb
+have suspected,Hedge,Lexical verb
+had suspected,Hedge,Lexical verb
+tend,Hedge,Lexical verb
+tends,Hedge,Lexical verb
+tending,Hedge,Lexical verb
+tended,Hedge,Lexical verb
+has tended,Hedge,Lexical verb
+have tended,Hedge,Lexical verb
+had tended,Hedge,Lexical verb
+think,Hedge,Lexical verb
+thinks,Hedge,Lexical verb
+thinking,Hedge,Lexical verb
+thought,Hedge,Lexical verb
+has thought,Hedge,Lexical verb
+have thought,Hedge,Lexical verb
+had thought,Hedge,Lexical verb
+assure,Booster,Lexical verb
+assures,Booster,Lexical verb
+assuring,Booster,Lexical verb
+assured,Booster,Lexical verb
+has assured,Booster,Lexical verb
+have assured,Booster,Lexical verb
+had assured,Booster,Lexical verb
+confirm,Booster,Lexical verb
+confirms,Booster,Lexical verb
+confirming,Booster,Lexical verb
+confirmed,Booster,Lexical verb
+has confirmed,Booster,Lexical verb
+have confirmed,Booster,Lexical verb
+had confirmed,Booster,Lexical verb
+demonstrate,Booster,Lexical verb
+demonstrates,Booster,Lexical verb
+demonstrating,Booster,Lexical verb
+demonstrated,Booster,Lexical verb
+has demonstrated,Booster,Lexical verb
+have demonstrated,Booster,Lexical verb
+had demonstrated,Booster,Lexical verb
+do,Booster,Lexical verb
+does,Booster,Lexical verb
+doing,Booster,Lexical verb
+did,Booster,Lexical verb
+done,Booster,Lexical verb
+has done,Booster,Lexical verb
+have done,Booster,Lexical verb
+had done,Booster,Lexical verb
+establish,Booster,Lexical verb
+establishes,Booster,Lexical verb
+establishing,Booster,Lexical verb
+established,Booster,Lexical verb
+has established,Booster,Lexical verb
+have established,Booster,Lexical verb
+had established,Booster,Lexical verb
+find,Booster,Lexical verb
+finds,Booster,Lexical verb
+finding,Booster,Lexical verb
+found,Booster,Lexical verb
+has found,Booster,Lexical verb
+have found,Booster,Lexical verb
+had found,Booster,Lexical verb
+know,Booster,Lexical verb
+knows,Booster,Lexical verb
+knowing,Booster,Lexical verb
+knew,Booster,Lexical verb
+known,Booster,Lexical verb
+has known,Booster,Lexical verb
+have known,Booster,Lexical verb
+had known,Booster,Lexical verb
+predict,Booster,Lexical verb
+predicts,Booster,Lexical verb
+predicting,Booster,Lexical verb
+predicted,Booster,Lexical verb
+has predicted,Booster,Lexical verb
+have predicted,Booster,Lexical verb
+had predicted,Booster,Lexical verb
+reinforce,Booster,Lexical verb
+reinforces,Booster,Lexical verb
+reinforcing,Booster,Lexical verb
+reinforced,Booster,Lexical verb
+has reinforced,Booster,Lexical verb
+have reinforced,Booster,Lexical verb
+had reinforced,Booster,Lexical verb
+show,Booster,Lexical verb
+shows,Booster,Lexical verb
+showing,Booster,Lexical verb
+showed,Booster,Lexical verb
+shown,Booster,Lexical verb
+has shown,Booster,Lexical verb
+have shown,Booster,Lexical verb
+had shown,Booster,Lexical verb
+about,Hedge,Adverb
+allegedly,Hedge,Adverb
+almost,Hedge,Adverb
+apparently,Hedge,Adverb
+approximately,Hedge,Adverb
+around,Hedge,Adverb
+arguably,Hedge,Adverb
+barely,Hedge,Adverb
+commonly,Hedge,Adverb
+conceivably,Hedge,Adverb
+considerably,Hedge,Adverb
+doubtless,Hedge,Adverb
+fairly,Hedge,Adverb
+frequently,Hedge,Adverb
+generally,Hedge,Adverb
+given that,Hedge,Adverb
+greatly,Booster,Adverb
+highly,Booster,Adverb
+hypothetically,Hedge,Adverb
+largely,Hedge,Adverb
+likely,Hedge,Adverb
+mainly,Hedge,Adverb
+markedly,Hedge,Adverb
+maybe,Hedge,Adverb
+modestly,Hedge,Adverb
+mostly,Hedge,Adverb
+nearly,Hedge,Adverb
+normally,Hedge,Adverb
+occasionally,Hedge,Adverb
+often,Hedge,Adverb
+partially,Hedge,Adverb
+partly,Hedge,Adverb
+perhaps,Hedge,Adverb
+possibly,Hedge,Adverb
+potentially,Hedge,Adverb
+practically,Hedge,Adverb
+presumably,Hedge,Adverb
+primarily,Hedge,Adverb
+probably,Hedge,Adverb
+provided,Hedge,Adverb
+quite,Hedge,Adverb
+rarely,Hedge,Adverb
+reasonably,Hedge,Adverb
+relatively,Hedge,Adverb
+reportedly,Hedge,Adverb
+roughly,Hedge,Adverb
+seemingly,Hedge,Adverb
+seldom,Hedge,Adverb
+significantly,Booster,Adverb
+slightly,Hedge,Adverb
+sometimes,Hedge,Adverb
+somewhat,Hedge,Adverb
+strongly,Booster,Adverb
+substantially,Hedge,Adverb
+supposedly,Hedge,Adverb
+tentatively,Hedge,Adverb
+theoretically,Hedge,Adverb
+typically,Hedge,Adverb
+unlikely,Hedge,Adverb
+usually,Hedge,Adverb
+vastly,Hedge,Adverb
+virtually,Hedge,Adverb
+widely,Hedge,Adverb
+absolutely,Booster,Adverb
+actually,Booster,Adverb
+always,Booster,Adverb
+assuredly,Booster,Adverb
+basically,Booster,Adverb
+certainly,Booster,Adverb
+clearly,Booster,Adverb
+completely,Booster,Adverb
+definitely,Booster,Adverb
+entirely,Booster,Adverb
+essentially,Booster,Adverb
+evidently,Booster,Adverb
+exactly,Booster,Adverb
+explicitly,Booster,Adverb
+extremely,Booster,Adverb
+factually,Booster,Adverb
+fully,Booster,Adverb
+fundamentally,Booster,Adverb
+indeed,Booster,Adverb
+indisputably,Booster,Adverb
+inevitably,Booster,Adverb
+in fact,Booster,Adverb
+intensively,Booster,Adverb
+necessarily,Booster,Adverb
+never,Booster,Adverb
+no doubt,Booster,Adverb
+obviously,Booster,Adverb
+of course,Booster,Adverb
+patently,Booster,Adverb
+plainly,Booster,Adverb
+precisely,Booster,Adverb
+really,Booster,Adverb
+surely,Booster,Adverb
+truly,Booster,Adverb
+totally,Booster,Adverb
+thoroughly,Booster,Adverb
+unarguably,Booster,Adverb
+undeniably,Booster,Adverb
+undoubtedly,Booster,Adverb
+unquestionably,Booster,Adverb
+apparent,Hedge,Adjective
+approximate,Hedge,Adjective
+common,Hedge,Adjective
+conceivable,Hedge,Adjective
+considerable,Hedge,Adjective
+consistent with,Hedge,Adjective
+frequent,Hedge,Adjective
+general,Hedge,Adjective
+hypothetical,Hedge,Adjective
+improbable,Hedge,Adjective
+in accord with,Hedge,Adjective
+indicative,Hedge,Adjective
+large,Hedge,Adjective
+larger,Hedge,Adjective
+largest,Hedge,Adjective
+likely,Hedge,Adjective
+little,Hedge,Adjective
+main,Hedge,Adjective
+major,Hedge,Adjective
+modest,Hedge,Adjective
+noticeable,Hedge,Adjective
+plausible,Hedge,Adjective
+possible,Hedge,Adjective
+potential,Hedge,Adjective
+primary,Hedge,Adjective
+probable,Hedge,Adjective
+rare,Hedge,Adjective
+rarer,Hedge,Adjective
+rarest,Hedge,Adjective
+relative,Hedge,Adjective
+remarkable,Hedge,Adjective
+rough,Hedge,Adjective
+rougher,Hedge,Adjective
+roughest,Hedge,Adjective
+significant,Booster,Adjective
+slight,Hedge,Adjective
+slighter,Hedge,Adjective
+slightest,Hedge,Adjective
+small,Hedge,Adjective
+smaller,Hedge,Adjective
+smallest,Hedge,Adjective
+substantial,Hedge,Adjective
+theoretical,Hedge,Adjective
+typical,Hedge,Adjective
+uncommon,Hedge,Adjective
+unlikely,Hedge,Adjective
+usual,Hedge,Adjective
+well-known,Hedge,Adjective
+absolute,Booster,Adjective
+certain,Booster,Adjective
+clear,Booster,Adjective
+clearer,Booster,Adjective
+clearest,Booster,Adjective
+complete,Booster,Adjective
+confident,Booster,Adjective
+definite,Booster,Adjective
+essential,Booster,Adjective
+evident,Booster,Adjective
+exact,Booster,Adjective
+extreme,Booster,Adjective
+impossible,Booster,Adjective
+inevitable,Booster,Adjective
+obvious,Booster,Adjective
+really,Booster,Adjective
+perfect,Booster,Adjective
+plain,Booster,Adjective
+plainer,Booster,Adjective
+plainest,Booster,Adjective
+real,Booster,Adjective
+sure,Booster,Adjective
+surer,Booster,Adjective
+surest,Booster,Adjective
+thorough,Booster,Adjective
+total,Booster,Adjective
+true,Booster,Adjective
+truer,Booster,Adjective
+truest,Booster,Adjective
+alternative,Hedge,Noun
+alternatives,Hedge,Noun
+approximation,Hedge,Noun
+approximations,Hedge,Noun
+assertion,Hedge,Noun
+assertions,Hedge,Noun
+assessment,Hedge,Noun
+assessments,Hedge,Noun
+assumption,Hedge,Noun
+assumptions,Hedge,Noun
+belief,Hedge,Noun
+beliefs,Hedge,Noun
+chance,Hedge,Noun
+chances,Hedge,Noun
+claim,Hedge,Noun
+claims,Hedge,Noun
+conclusion,Hedge,Noun
+conclusions,Hedge,Noun
+doubt,Hedge,Noun
+doubts,Hedge,Noun
+estimate,Hedge,Noun
+estimates,Hedge,Noun
+estimation,Hedge,Noun
+estimations,Hedge,Noun
+evaluation,Hedge,Noun
+evaluations,Hedge,Noun
+expectation,Hedge,Noun
+expectations,Hedge,Noun
+hope,Hedge,Noun
+hopes,Hedge,Noun
+idea,Hedge,Noun
+ideas,Hedge,Noun
+implication,Hedge,Noun
+implications,Hedge,Noun
+indication,Hedge,Noun
+indications,Hedge,Noun
+interpretation,Hedge,Noun
+interpretations,Hedge,Noun
+likelihood,Hedge,Noun
+likelihoods,Hedge,Noun
+opinion,Hedge,Noun
+opinions,Hedge,Noun
+possibility,Hedge,Noun
+possibilities,Hedge,Noun
+premise,Hedge,Noun
+premises,Hedge,Noun
+probability,Hedge,Noun
+probabilities,Hedge,Noun
+proposal,Hedge,Noun
+proposals,Hedge,Noun
+suggestion,Hedge,Noun
+suggestions,Hedge,Noun
+tendency,Hedge,Noun
+tendencies,Hedge,Noun
+view,Hedge,Noun
+views,Hedge,Noun
+certainty,Booster,Noun
+certainties,Booster,Noun
+confidence,Booster,Noun
+confidences,Booster,Noun
+evidence,Booster,Noun
+evidences,Booster,Noun
+fact,Booster,Noun
+facts,Booster,Noun
+precision,Booster,Noun
+precisions,Booster,Noun
