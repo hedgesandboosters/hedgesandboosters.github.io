@@ -1,6 +1,4 @@
 /*eslint-env browser*/
-window.addEventListener('load', initiate, false);
-
 var fileInput = null ; 
 var data = null ;
 var countSentences;
