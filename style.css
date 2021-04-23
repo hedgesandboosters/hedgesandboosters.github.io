@@ -16,6 +16,10 @@ img {
 	max-width: 900px;
 }
 
+td {
+    vertical-align: top;
+}
+
 .portfolio-item {
 	margin-bottom: 30px;
 }
